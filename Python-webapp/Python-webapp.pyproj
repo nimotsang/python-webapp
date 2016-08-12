@@ -24,6 +24,15 @@
   <ItemGroup>
     <Compile Include="Python_webapp.py" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="backup\" />
+    <Folder Include="conf\" />
+    <Folder Include="dist\" />
+    <Folder Include="LICENSE\" />
+    <Folder Include="www\templates\" />
+    <Folder Include="www\static\" />
+    <Folder Include="www\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <PtvsTargetsFile>$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets</PtvsTargetsFile>
